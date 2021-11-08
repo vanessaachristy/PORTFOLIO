@@ -4,6 +4,7 @@ import "./app.css"
 
 import Topbar from "./components/topbar/Topbar"
 import Intro from "./components/intro/Intro"
+import Education from "./components/education/Education"
 import Portfolio from "./components/portfolio/Portfolio"
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu"
@@ -20,6 +21,7 @@ function App(){
     <div className="section">
       <Intro/>
       <Portfolio/>
+      <Education/>
       <Contact/>
     </div>
   </div>
