@@ -56,13 +56,13 @@
 .hamburger span{
     width: 100%;
     height: 3px;
-    background-color: #164e6b;
+    background-color: #994848;
     transform-origin: left;
     transition: all 2s ease;
 }
 
 .active{
-    background-color: #164e6b;
+    background-color: #994848;
     color: white;
 }
 
