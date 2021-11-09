@@ -1,6 +1,6 @@
 import React from 'react'
 import PortfolioList from '../portfolioList/PortfolioList';
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 
 import "./portfolio.css"
 
@@ -39,7 +39,7 @@ export default function Portfolio() {
                     <PortfolioList id={item.id} title={item.title} active={selected === item.id} setSelected={setSelected}/>
                 ))}
             </ul> 
-            <div className="container">`
+            <div className="container">
                 <div className="item">
                     <img src="assets/featured.png" alt=""></img>
                     <h3>One</h3>
