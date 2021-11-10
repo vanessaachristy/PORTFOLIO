@@ -41,15 +41,15 @@ export default function Portfolio() {
             </ul> 
             <div className="container">
                 <div className="item">
-                    <img src="assets/featured.png" alt=""></img>
-                    <h3>One</h3>
+                    <img src="assets/fitfriend.gif" alt=""></img>
+                    <h3>FitFriend</h3>
                 </div>
                 <div className="item">
-                    <img src="assets/featured.png" alt=""></img>
+                    <img src="assets/fitfriend.gif" alt=""></img>
                     <h3>Two</h3>
                 </div>
                 <div className="item">
-                    <img src="assets/featured.png" alt=""></img>
+                    <img src="assets/fitfriend.gif" alt=""></img>
                     <h3>Three</h3>
                 </div>
             </div>

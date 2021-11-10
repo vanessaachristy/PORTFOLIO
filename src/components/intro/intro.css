@@ -15,9 +15,9 @@
 .imgContainer{
     margin-top: 20px;
     width: 100%;
-    height: 90vh;
+    height: 80vh;
     background-color: #e36576;
-    border-radius: 50%;
+    border-radius: 0 50% 50% 0;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -76,7 +76,7 @@ h3 span{
 
 a img{
     width: 30px;
-    animation: arrowBlink 1.5s infinite;
+    animation: arrowBlink 1s infinite;
 }
 
 @keyframes arrowBlink{

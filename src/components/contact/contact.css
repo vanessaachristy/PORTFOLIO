@@ -1,3 +1,13 @@
 .contact{
     background-color: #fbcfb0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h1{
+    background-color: #994848;
+    color: white;
+    border-radius: 30px;
+    padding: 15px;
 }
