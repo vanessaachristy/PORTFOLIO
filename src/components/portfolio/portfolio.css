@@ -6,12 +6,13 @@
 }
 
 .portfolio h1{
-    background-color: #994848;
+    background-color: #AA14F0;
     color: white;
     border-radius: 40px;
     padding: 5px 30px;
     font-size: 50px;
 }
+
 
 .portfolio ul{
 
@@ -33,13 +34,13 @@
 
 .portfolio .container .item{
     width: 350px;
-    height: 200px;
+    height: 350px;
     border-radius: 20px;
-    border: 1px solid #000000;
+    border: 1px solid black;
     margin: 10px 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     color: white;
     position: relative;
     transition: all .5s ease;
@@ -47,29 +48,50 @@
 }
 
 .container .item h3{
-    position: absolute;
-    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
 }
 
 
 .container .item img{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
+    height: auto;
+    z-index: 0;
 }
 
-.container .item:hover{
-    background-color: #994848;
+.container .item .icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    margin-top: 0;
 }
 
-.container .item:hover img{
-    opacity: 0.2;
-    z-index:0;
+
+.container .item .icon a{
+    padding: 10px 10px;
+    
+}
+
+.container .item .icon a img:hover{
+    background-color: #fcdcdc;
+    transform: translateY(-5px);
+}
+
+.container .item .icon a img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 25%;
+    transition: transform 250ms ease-in-out;
 }
 
 
-@media (max-width: 760px){
+
+@media (max-width: 767px){
     .portfolio h1{
         font-size: 20px;
         margin-bottom: 0;
@@ -83,10 +105,28 @@
         width: 100%;
     }
     .portfolio .container .item{
-        width: 140px;
-        height: 100px;
+        width: 175px;
+        height: 175px;
     }
+
+    .container .item h3{
+        font-size: 13px;
+        margin-top: 5px;
+        margin-bottom: 0;
+
+    }
+
     .container .item img{
         width: 100%;
+        height: auto;
+    }
+
+    .container .item .icon{
+        margin-top: 5px;
+        height: 30px;
+    }
+    .container .item .icon a img{
+        width: 20px;
+        height: 20px;
     }
 }

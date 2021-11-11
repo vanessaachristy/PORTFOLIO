@@ -2,8 +2,8 @@
 .portfolioList{
     font-size: 20px;
     font-weight: 400;
-    padding: 7px;
     margin-right: 50px;
+    padding: 10px;
     border-radius: 20px;
     cursor: pointer;
 }
@@ -15,8 +15,9 @@
     color: white;
 }
 
-@media (max-width:760px){
+@media (max-width:767px){
     .portfolioList{
+        margin-left: 20px;
         margin-right: 20px;
         font-size: 15px;
     }
