@@ -34,6 +34,17 @@
     align-items: center;
 }
 
+@media (max-width: 760px) {
+    .item-container{
+        display: none;
+    }
+    .left .logo{
+        font-size: 25px;
+        font-weight: 800;
+    }
+}
+
+
 .item-container .icon{
     font-size: 18px;
     margin-right: 5px;

@@ -1,13 +1,15 @@
 import React from 'react'
 import PortfolioList from '../portfolioList/PortfolioList';
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 
 import "./portfolio.css"
-
+import { featuredPortfolio, UIPortfolio, designPortfolio, brandingPortfolio, videoPortfolio, } from '../data';
 
 export default function Portfolio() {
 
     const [selected, setSelected] = useState("featured");
+    const [data, setData] = useState([]);
+
     const list = [
         {
             id:"featured",
@@ -31,6 +33,29 @@ export default function Portfolio() {
         },
     ];
 
+    useEffect(()=>{
+
+        switch(selected){
+            case "featured":
+                setData(featuredPortfolio);
+                break;
+            case "uiux":
+                setData(UIPortfolio);
+                break;
+            case "design":
+                setData(designPortfolio);
+                break;
+            case "branding":
+                setData(brandingPortfolio);
+                break;
+            case "video":
+                setData(videoPortfolio);
+                break;
+             default:
+                 setData(featuredPortfolio);   
+        }
+    }, [selected])
+
     return (
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
@@ -40,18 +65,12 @@ export default function Portfolio() {
                 ))}
             </ul> 
             <div className="container">
-                <div className="item">
-                    <img src="assets/fitfriend.gif" alt=""></img>
-                    <h3>FitFriend</h3>
-                </div>
-                <div className="item">
-                    <img src="assets/fitfriend.gif" alt=""></img>
-                    <h3>Two</h3>
-                </div>
-                <div className="item">
-                    <img src="assets/fitfriend.gif" alt=""></img>
-                    <h3>Three</h3>
-                </div>
+                {data.map((d)=>(
+                    <div className="item">
+                        <img src={d.img} alt=""></img>
+                        <h3>{d.title}</h3>
+                    </div>
+                ))}
             </div>
         </div>
     )

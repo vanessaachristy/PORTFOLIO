@@ -8,16 +8,13 @@
 .portfolio h1{
     background-color: #994848;
     color: white;
-    border-radius: 30px;
-    padding: 15px;
+    border-radius: 40px;
+    padding: 5px 30px;
     font-size: 50px;
 }
 
 .portfolio ul{
-    align-items: center;
-    justify-content: center;
-    height: 20vh;
-    width: 100vw;
+
     margin: 10px;
     padding: 0;
     list-style: none;
@@ -25,8 +22,8 @@
 }
 
 
-.container{
-    width: 100%;
+.portfolio .container{
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,9 +31,9 @@
 
 }
 
-.container .item{
-    width: 450px;
-    height: 250px;
+.portfolio .container .item{
+    width: 350px;
+    height: 200px;
     border-radius: 20px;
     border: 1px solid #000000;
     margin: 10px 20px;
@@ -51,7 +48,7 @@
 
 .container .item h3{
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
@@ -69,4 +66,27 @@
 .container .item:hover img{
     opacity: 0.2;
     z-index:0;
+}
+
+
+@media (max-width: 760px){
+    .portfolio h1{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .portfolio ul{
+        flex-wrap: wrap;
+        margin: 10px 0;
+        justify-content: center;
+    }
+    .portfolio .container{
+        width: 100%;
+    }
+    .portfolio .container .item{
+        width: 140px;
+        height: 100px;
+    }
+    .container .item img{
+        width: 100%;
+    }
 }
