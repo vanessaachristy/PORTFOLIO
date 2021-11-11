@@ -48,13 +48,19 @@ export const brandingPortfolio = [
         title: "@garage_at_eee on IG",
         img: "assets/garage.png",
         icon1: "assets/photoshop.png"
+    },
+    {
+        id: 2,
+        title: "@ksfbeauty on IG",
+        img: "assets/garage.png",
+        icon1: "assets/photoshop.png"
     }
 ]
 
 export const videoPortfolio = [
     {
         id: 1,
-        title: "BLACKPINK Lisa Glow Animation Dance",
+        title: "BLACKPINK Lisa Glow Dance",
         img: "assets/lisa.gif",
         icon1: "assets/ae.png"
     }

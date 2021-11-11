@@ -22,6 +22,11 @@
     align-items: center;
 }
 
+.left a{
+    text-decoration: none;
+    color: black;
+}
+
 .left .logo{
     font-size: 40px;
     font-weight: 700;
@@ -33,6 +38,7 @@
     display: flex;
     align-items: center;
 }
+
 
 @media (max-width: 767px) {
     .item-container{
@@ -52,8 +58,11 @@
 
 .item-container span{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
+}
 
+.item-container span:hover{
+    color: #7027A0;
 }
 
 .right .hamburger{
@@ -70,7 +79,11 @@
     height: 3px;
     background-color: #7027A0;
     transform-origin: left;
-    transition: all 2s ease;
+    transition: all 1s ease;
+}
+
+.active .left a{
+    color: white;
 }
 
 .active{

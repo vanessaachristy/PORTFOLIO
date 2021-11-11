@@ -1,5 +1,5 @@
 .education{
-    background-image: linear-gradient(white, #fbcfb0);
+    background-image: linear-gradient(white, #ecc4ff);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +8,7 @@
 .education h1{
     padding: 5px 30px;
     color: white;
-    background-color: #994848;
+    background-color: #AA14F0;
     border-radius: 40px;
 }
 
@@ -24,4 +24,11 @@
 
 .education .container ul li{
     margin-bottom: 20px;
+}
+
+@media (max-width: 767px){
+    .education h1{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
 }
