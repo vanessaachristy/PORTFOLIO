@@ -1,15 +1,15 @@
 .education{
-    background-image: white;
+    background-color: #e4d2ff;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .education h1{
-    padding: 20px ;
-    font-weight: 800;
+    padding: 10px ;
+    font-weight: 900;
     font-size: 40px;
-    color: #c299ff;
+    color: white;
     text-shadow: 0px 0px 0 rgb(185,144,246),
                  0px 1px 0 rgb(177,136,238),
                  0px 2px 0 rgb(168,127,229),
@@ -19,18 +19,161 @@
                  0px 0px 3px rgba(0,0,0,.2);
 }
 
-.education .container ul{
-    font-size: 30px;
-    padding: 20px;
+.education .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 10px;
+    
 }
 
-.education .container ul li{
-    margin-bottom: 20px;
+.education .container .university{
+    width: 700px;
+    height: 175px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(46, 12, 56, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+
+.university .left{
+    flex: 0.3;
+}
+
+
+.university .left{
+    flex: 0.3;
+    display: flex;
+    justify-content: center;
+}
+
+.university .left img{
+    width: 50%;
+    height: auto;
+
+}
+
+.university .right{
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+}
+
+.university .right .uni-name h1{
+    color: black;
+    font-size: 25px;
+    text-shadow: none;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.university .right .location h2{
+    color: rgb(104, 104, 104);
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.university .right .major{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.university .right .major h2{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.university .right .major h3{
+    color: rgb(104, 104, 104);
+    text-align: center;
+    font-size: 15px;
+}
+
+.university .right .gpa h3{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.education .container .highschool{
+    width: 700px;
+    height: 175px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(46, 12, 56, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+
+.highschool .left{
+    flex: 0.3;
+    display: flex;
+    justify-content: center;
+}
+
+.highschool .left img{
+    width: 60%;
+    height: auto;
+
+}
+.highschool .right{
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.highschool .right .school-name h1{
+    color: black;
+    font-size: 25px;
+    text-shadow: none;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.highschool .right .location h2{
+    color: rgb(104, 104, 104);
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.highschool .right .major{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.highschool .right .major h2{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.highschool .right .major h3{
+    color: rgb(104, 104, 104);
+    text-align: center;
+    font-size: 15px;
+}
+
+.highschool .right .score h3{
+    color: black;
+    text-align: center;
+    font-size: 15px;
 }
 
 @media (max-width: 767px){
