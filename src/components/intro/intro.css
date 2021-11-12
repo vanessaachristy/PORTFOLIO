@@ -3,25 +3,26 @@
 }
 
 .first{
-    flex: 0.6;
+    flex: 0.55;
     background-color: white;
     overflow: hidden;
 }
 
 .second{
-    flex: 0.4;
+    flex: 0.35;
 }
 
 .imgContainer{
     margin-top: 20px;
     width: 100%;
     height: 80vh;
-    background-color: #AA14F0;
-    border-radius: 0 50% 50% 0;
+    background-color: #c444ff;
+    border-radius: 0 75% 75% 0;
     display: flex;
     align-items: flex-end;
     justify-content: center;
     float: right;
+    box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
 }
 
 img{
@@ -38,14 +39,17 @@ img{
 }
 
 h1{
-    font-size: 45px;
+    font-size: 40px;
     margin: 10px 0;
+    font-weight: 900;
 }
 h2{
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 800;
 }
 h3{
     font-size: 20px;
+    font-weight: 800;
 }
 
 h3 span{

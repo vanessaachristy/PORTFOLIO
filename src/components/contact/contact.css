@@ -1,15 +1,36 @@
 .contact{
-    background-color: #ecc4ff;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .contact h1{
-    background-color: #AA14F0;
-    color: white;
-    border-radius: 30px;
-    padding: 5px 30px;
+    padding: 20px ;
+    font-weight: 800;
+    font-size: 40px;
+    color: #c299ff;
+    text-shadow: 0px 0px 0 rgb(185,144,246),
+                 0px 1px 0 rgb(177,136,238),
+                 0px 2px 0 rgb(168,127,229),
+                 0px 3px  0 rgb(159,118,220),
+                 0px 4px 3px rgba(0,0,0,0.9),
+                 0px 4px 1px rgba(0,0,0,0.5),
+                 0px 0px 3px rgba(0,0,0,.2);
+}
+
+.contact-item{
+    flex: 0.9;
+}
+
+.footer{
+    flex: 0.1;
+    background-color: white;
+}
+
+.footer h3{
+    text-align: center;
+    font-size: 15px;
 }
 
 @media (max-width: 767px){

@@ -14,10 +14,10 @@ export const featuredPortfolio = [
     },
     {
         id: 3,
-        title: "T-shirt Design",
-        img: "assets/tshirt.png",
-        icon1: "assets/photoshop.png"
-    },
+        title: "BLACKPINK Lisa Glow Dance",
+        img: "assets/lisa.gif",
+        icon1: "assets/ae.png"
+    }
     
 ]
 
