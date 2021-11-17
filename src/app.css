@@ -26,6 +26,13 @@
 
 }
 
+@media (max-width: 767px) {
+
+    .section > * {
+        scroll-snap-align: none;
+    }
+
+}
     
 
 
