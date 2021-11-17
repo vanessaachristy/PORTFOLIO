@@ -179,7 +179,7 @@
 @media (max-width: 767px){
     .education h1{
         font-size: 20px;
-        margin-bottom: 0;
+        margin-bottom: 0px;
     }
 
     .education .container .university{
