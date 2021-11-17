@@ -1,7 +1,10 @@
 {
+  "homepage": "http://vanessaachristy.github.io/",
   "name": "portfolio",
   "version": "0.1.0",
   "scripts": {
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -22,6 +25,7 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.2",
+    "gh-pages": "^3.2.3",
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.0"
   },
