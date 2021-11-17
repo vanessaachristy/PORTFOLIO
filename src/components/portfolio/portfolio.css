@@ -103,12 +103,12 @@
 
 @media (max-width: 767px){
     .portfolio h1{
+        padding: 0px;
         font-size: 20px;
         margin-bottom: 0;
     }
     .portfolio ul{
         flex-wrap: wrap;
-        margin: 10px 0;
         justify-content: center;
     }
     .portfolio .container{
