@@ -16,7 +16,7 @@ export default function Contact() {
                 <div className="social">
                     <div className="logo-container"><a href="https://github.com/vanessaachristy"> <img src="assets/github.png" alt=""></img></a></div>
                     <div className="logo-container"><a href="https://www.linkedin.com/in/vanessa-christy/"> <img src="assets/linked.png" alt=""></img> </a> </div>
-                    <div className="logo-container"><a href="www.instagram.com/vanessaachristy"> <img src="assets/instagram.png" alt=""></img> </a> </div>
+                    <div className="logo-container"><a href="https://www.instagram.com/vanessaachristy"> <img src="assets/instagram.png" alt=""></img> </a> </div>
                 </div>
             </div>
             <div className="footer">
