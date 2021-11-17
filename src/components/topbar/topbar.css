@@ -40,16 +40,6 @@
 }
 
 
-@media (max-width: 767px) {
-    .item-container{
-        display: none;
-    }
-    .left .logo{
-        font-size: 25px;
-        font-weight: 800;
-    }
-}
-
 
 .item-container .icon{
     font-size: 18px;
@@ -107,4 +97,13 @@
 }
 
 
+@media (max-width: 767px) {
 
+    .item-container{
+        display: none;
+    }
+    .left .logo{
+        font-size: 25px;
+        font-weight: 800;
+    }
+}

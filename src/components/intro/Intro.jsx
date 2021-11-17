@@ -14,7 +14,7 @@ export default function Intro() {
             showCursor: true,
             backDelay: 1500,
             backSpeed: 60,
-            strings: ["Sophomore Year Student", "Freelance Designer",  "Daydreamer"],
+            strings: ["Undergraduate Student", "Freelance Designer",  "Daydreamer"],
         });
     }, []);
 
