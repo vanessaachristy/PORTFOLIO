@@ -181,4 +181,75 @@
         font-size: 20px;
         margin-bottom: 0;
     }
+
+    .education .container .university{
+        margin-top: 20px;
+        width: 95vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .university .left{
+        flex: 0.4;
+    }
+    .university .left img{
+        margin-top: 10px;
+        width: auto;
+        height: 90%;
+    }
+    .university .right{
+        flex: 0.6;
+    }
+
+    .university .right .uni-name h1{
+        margin-top: 0px;
+        font-size: 15px;
+    }
+
+    .university .right .major{
+        flex-direction: column;
+    }
+    .university .right .major h2{
+        font-size: 13px;
+    }
+    .university .right .major h3{
+        font-size: 13px;
+    }
+
+
+    .education .container .highschool{
+        margin-top: 20px;
+        width: 95vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .highschool .left{
+        flex: 0.4;
+    }
+    .highschool .left img{
+        margin-top: 10px;
+        width: auto;
+        height: 90%;
+    }
+    .highschool .right{
+        flex: 0.6;
+    }
+
+    .highschool .right .school-name h1{
+        margin-top: 0px;
+        font-size: 15px;
+    }
+
+    .highschool .right .major{
+        flex-direction: column;
+    }
+    .highschool .right .major h2{
+        font-size: 13px;
+    }
+    .highschool .right .major h3{
+        font-size: 13px;
+    }
+    
 }

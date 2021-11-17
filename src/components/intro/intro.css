@@ -32,7 +32,7 @@ img{
 .second-wrapper{
     width: 100%;
     height: 100%;
-    padding-left: 30px;
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,12 +93,13 @@ h3 span{
         flex-direction: column;
     }
     .imgContainer{
-        align-items: flex-start;
+        align-items: flex-end;
         height: 40vh;
         margin-right: 10px;
     }
     img{
-        height: 100%;
+        width: 100%;
+        height: auto;
     }
     .second-wrapper{
         height: 60%;

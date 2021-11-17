@@ -42,7 +42,7 @@ export default function Education() {
                             <h3>(2017-2020)</h3>
                         </div>
                         <div className="score">
-                            <h3>90/100</h3>
+                            <h3>91/100</h3>
                         </div>
                     </div>
 
