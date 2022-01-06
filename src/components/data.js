@@ -32,6 +32,13 @@ export const UIPortfolio = [
         icon1: "assets/figma.png",
         web1: "https://www.figma.com/proto/oXycZT74VCsQa2hBbs1OJf/FitFriend-Website?page-id=0%3A1&node-id=1%3A4&viewport=241%2C48%2C0.34&scaling=min-zoom&starting-point-node-id=1%3A4"
     },
+    {
+        id: 2,
+        title: "GTD Unsolved",
+        img: "assets/gtdunsolved.gif",
+        icon1: "assets/figma.png",
+        web1: "https://www.figma.com/proto/eBzdYEsFYRKE3sTt1MmDn9/Mockup?page-id=0%3A1&node-id=67%3A182&viewport=241%2C48%2C0.12&scaling=min-zoom&starting-point-node-id=102%3A1248&show-proto-sidebar=1"
+    }
 ]
 
 export const designPortfolio = [
